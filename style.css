@@ -186,15 +186,13 @@ img {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 
-  margin-top: 150px;
-  margin-left: -130px;
+  margin-left: -90px;
 
   color: #ffffff;
 }
 
 .banner-logo {
-  margin-top: 150px;
-  margin-left: -160px;
+  margin-left: 160px;
 }
 
 .text-banner {
@@ -204,9 +202,7 @@ img {
   font-size: 15px;
   line-height: 180%;
 
-  margin-top: 120px;
-  margin-left: 120px;
-
+  margin-left: -50px;
   color: #ffffff;
 }
 
@@ -215,7 +211,10 @@ img {
 }
 
 .back-image {
+  padding: 80px 0;
   position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: #000000;
   background-image: url("image\ 22.png");
 }
@@ -233,5 +232,27 @@ img {
   font-size: 15px;
   line-height: 180%;
 
+  margin-left: 230px;
+  margin-top: 80px;
   color: #000000;
+}
+
+.title-banner2 {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 155.5%;
+
+  margin-top: 80px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.logo-banner2{
+  margin-top: 80px;
+  margin-left: 40px;
 }
